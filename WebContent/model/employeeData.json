@@ -1,0 +1,64 @@
+{
+  "companyData" : {
+                   "name" : "S-Max",
+                   "address" : {
+                                "flatNo" : 405,
+                                "street" : "Ameerpet",
+                                "city"   : "Hyderabad"
+                                },
+                    "empInfo" : [
+                    {
+                    "name" : "Govardhan",
+                    "dept" : "SAP",
+                    "role" : "Developer"
+                    },
+                    {
+                     "name" : "Surender",
+                    "dept" : "Oracle",
+                    "role" : "Developer"
+                    },
+                    {
+                     "name" : "Devender",
+                    "dept" : "UI5",
+                    "role" : "Manager"
+                    },
+                    
+                    {
+                     "name" : "Venkat",
+                    "dept" : "UI5",
+                    "role" : "Manager"
+                    }
+                    
+                    ],
+                    
+                    "roles" : [
+                      {
+                      "role" : "Developer"
+                      },
+                      {
+                      "role" : "Manager"
+                      },
+                      {
+                       "role" : "Project Manager"
+                      },
+                      {
+                       "role" : "Deployment Manager"
+                      },
+                      {
+                       "role" : "Deployment Manager"
+                      },
+                      {
+                       "role" : "Deployment Manager"
+                      },
+                      {
+                       "role" : "Deployment Manager"
+                      },
+                      {
+                       "role" : "Deployment Manager"
+                      }
+                    
+                    
+                    
+                    ]            
+                   }
+}
