@@ -2,7 +2,7 @@
 		controllerName="z5table.Table" xmlns:html="http://www.w3.org/1999/xhtml">
 	<Page title="Title">
 		<content>
-	        <Table id="idTable">
+	        <Table id="idTable" items="{/companyData/empInfo}">
 	           <columns>
 	              <Column>
 	                 <header>
@@ -22,6 +22,15 @@
 	                </header>
 	              </Column>
 	           </columns>
+	           <items>
+	               <ColumnListItem>
+	                  <cells>
+	                     <Text text="{name}"/>
+	                     <Input value="{dept}"/>
+	                     <Button text="{role}"/>
+	                  </cells>
+	               </ColumnListItem>
+	           </items>
 	        </Table>
 		</content>
 	</Page>

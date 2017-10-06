@@ -12,9 +12,9 @@ sap.ui.controller("z5table.Table", {
 		
 		this.getView().setModel(oModel);
 		
-		var oTable = this.getView().byId("idTable");
+//		var oTable = this.getView().byId("idTable");
 		
-		var oTemplate = new sap.m.ColumnListItem({
+		/*var oTemplate = new sap.m.ColumnListItem({
 			cells : [
 				new sap.m.Text({ text : "{name}"}),
 				new sap.m.Input({value : "{dept}"}),
@@ -23,7 +23,7 @@ sap.ui.controller("z5table.Table", {
 			]
 		});
 		
-		oTable.bindAggregation("items", "/companyData/empInfo", oTemplate);
+		oTable.bindAggregation("items", "/companyData/empInfo", oTemplate);*/
 		
 	},
 
